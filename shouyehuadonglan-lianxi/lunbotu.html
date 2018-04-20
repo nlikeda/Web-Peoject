@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8" />
+ <title>Document</title>
+ <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="external nofollow" >
+ <style type="text/css">
+  .carousel {
+   height: 500px;
+  }
+  .carousel .item {
+   height: 500px;
+   background-color: #000;
+  }
+  .carousel .item img {
+   width: 100%;
+  }
+  .carousel-caption {
+   z-index: 10;
+  
+    }
+  #ad-carousel{
+  	width: 50%;
+  	height: 490px;
+  	margin: 100px auto;
+  }
+  .item{
+  	cursor: pointer;
+  }
+ </style>
+</head>
+ <body>
+  <!-- 轮播 -->
+ <div id="ad-carousel" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+   <li data-slide-to="0" class="active"></li>
+   <li data-slide-to="1"></li>
+   <li data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+   <div class="item active" onclick="lun1()">
+    <img src="second_second_pic.png" alt="1 slide">
+    <div class="container">
+     <div class="carousel-caption">
+
+     </div>
+    </div>
+   </div>
+   <div class="item" onclick="lun2()">
+    <img src="second_second_pic.png" alt="2 slide">
+    <div class="container">
+     <div class="carousel-caption">
+     
+     </div>
+    </div>
+   </div>
+   <div class="item" onclick="lun3()">
+    <img src="second_second_pic.png" alt="3 slide">
+    <div class="container">
+     <div class="carousel-caption">
+      
+     </div>
+    </div>
+   </div>
+  </div>
+  <a class="left carousel-control" href="#ad-carousel" data-slide="prev"><span
+    class="glyphicon glyphicon-chevron-left"></span></a>
+  <a class="right carousel-control" href="#ad-carousel" data-slide="next"><span
+    class="glyphicon glyphicon-chevron-right"></span></a>
+ </div>
+ <script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+ <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" ></script>
+</body>
+	<script type="text/javascript">
+		function lun1()
+		{
+			window.location.href="first_zixun.html"
+		}
+		function lun2()
+		{
+			window.location.href="second_zixun.html"
+		}
+		function lun3()
+		{
+			window.location.href="third_zixun.html"
+		}
+	</script>
+</html>
